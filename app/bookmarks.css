@@ -1,0 +1,16 @@
+body #app {
+  width: calc(100% - 400px);
+  margin: 0;
+}
+
+.bookmarks-container {
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  overflow-y: auto;
+  width: 400px;
+  padding: 5px 10px;
+  background-color: rgba(10, 10, 10, .2);
+}

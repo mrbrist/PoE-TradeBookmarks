@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "PoE Trade Bookmarks",
+  "version": "0.1",
+  "description": "Adds bookmarks to PoE Trade.",
+  "icons": {
+    "48": "icons/star.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "*://www.pathofexile.com/trade/*"
+      ],
+      "js": [
+        "app/bookmarks.js"
+      ],
+      "css": [
+        "app/bookmarks.css"
+      ]
+    }
+  ]
+}
